@@ -48,16 +48,16 @@ Generates speech from a given input string. Output will be saved to `output.wav`
 
 ---
 
-## Output
+## Results
 
-Training/validation loss plots will be shown after each epoch.
+![image](https://github.com/user-attachments/assets/34a583bb-8403-4e3f-86f7-4d6f0f0b4320)
 
 ---
 
 ## Example
 
 ```python
-from dual_tts.infer import synthesize
+from infer import synthesize
 
 audio_path = synthesize("Hello world, this is synthesized speech!")
 print(f"Saved synthesized audio to: {audio_path}")
