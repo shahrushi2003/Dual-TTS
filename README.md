@@ -31,7 +31,7 @@ The model uses [LJSpeech](https://huggingface.co/datasets/lj_speech) via the `da
 ## Training
 
 ```bash
-python dual_tts/train.py
+python train.py
 ```
 
 This will train the model for 1 epoch (modify `num_epochs` inside `train.py` to train longer).
@@ -41,7 +41,7 @@ This will train the model for 1 epoch (modify `num_epochs` inside `train.py` to 
 ## Inference
 
 ```bash
-python dual_tts/infer.py
+python infer.py
 ```
 
 Generates speech from a given input string. Output will be saved to `output.wav`.
