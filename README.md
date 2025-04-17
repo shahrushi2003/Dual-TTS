@@ -2,6 +2,9 @@
 
 **Dual-TTS** is a Tacotron-like multi-stream text-to-speech (TTS) model that combines semantic and acoustic decoding streams to produce high-quality mel spectrograms. It supports autoregressive inference and is trained on the LJSpeech dataset.
 
+<img width="918" alt="image" src="https://github.com/user-attachments/assets/0dbcf5d8-c9f7-4ea8-b3ce-5c31e84dbb39" />
+
+
 ---
 
 ## Features
